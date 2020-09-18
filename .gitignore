@@ -1,5 +1,4 @@
 node_modules
-.gitignore
-/node_modules
+node_modules/
 echo .DS_Store >> .gitignore
 
