@@ -24,12 +24,12 @@ class UserList extends Component {
     }
 }
 
- function mapStateToProps(state){
+ const mapStateToProps =(state) => {
      return {
          myUsers : state.users
      }
  }
- function  mapDispatchToProps(dispatch){
+ const mapDispatchToProps = (dispatch) => {
      return bindActionCreators({selectUser:selectUser},dispatch)
      }
  
